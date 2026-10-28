@@ -1,0 +1,265 @@
+---
+name: Earthy Modern Pantry
+colors:
+  surface: '#f7fbeb'
+  surface-dim: '#d7dccd'
+  surface-bright: '#f7fbeb'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f1f6e6'
+  surface-container: '#ebf0e0'
+  surface-container-high: '#e5eada'
+  surface-container-highest: '#e0e4d5'
+  on-surface: '#181d14'
+  on-surface-variant: '#454840'
+  inverse-surface: '#2d3228'
+  inverse-on-surface: '#eef3e3'
+  outline: '#76786f'
+  outline-variant: '#c6c7bd'
+  surface-tint: '#576249'
+  primary: '#2f3923'
+  on-primary: '#ffffff'
+  primary-container: '#455038'
+  on-primary-container: '#b5c2a3'
+  inverse-primary: '#bfcbac'
+  secondary: '#55624b'
+  on-secondary: '#ffffff'
+  secondary-container: '#d8e8c9'
+  on-secondary-container: '#5b6950'
+  tertiary: '#403421'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#584a36'
+  on-tertiary-container: '#cdbaa1'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dae7c7'
+  primary-fixed-dim: '#bfcbac'
+  on-primary-fixed: '#151e0b'
+  on-primary-fixed-variant: '#3f4a33'
+  secondary-fixed: '#d8e8c9'
+  secondary-fixed-dim: '#bccbae'
+  on-secondary-fixed: '#131f0c'
+  on-secondary-fixed-variant: '#3e4b34'
+  tertiary-fixed: '#f4dfc5'
+  tertiary-fixed-dim: '#d7c4aa'
+  on-tertiary-fixed: '#241a09'
+  on-tertiary-fixed-variant: '#524531'
+  background: '#f7fbeb'
+  on-background: '#181d14'
+  surface-variant: '#e0e4d5'
+typography:
+  display-lg:
+    fontFamily: Outfit
+    fontSize: 44px
+    fontWeight: '600'
+    lineHeight: 52px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Outfit
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 38px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Outfit
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Outfit
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Outfit
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Outfit
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 26px
+  title-md:
+    fontFamily: Outfit
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.03em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-md: 1.5rem
+  gutter-lg: 2rem
+  margin: 1rem
+  margin-md: 1.5rem
+  margin-lg: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+  space-2xl: 3rem
+---
+
+## Brand & Style
+
+This design system expresses a grounded, communal, and natural aesthetic tailored for commercial kitchens, local cafes, and community food rescue operations. The interface must communicate ecological responsibility without appearing rustic, outdated, or clinical. It pairs modern geometric layouts with warm, organic tactile elements.
+
+### Brand Tenets
+- **Warm Stewardship:** Interactions feel thoughtful, deliberate, and respectful of natural resources.
+- **Utilitarian Clarity:** High-velocity commercial kitchens and inventory logging require immediate scannability under shifting lighting conditions.
+- **Calm Urgency:** Critical states (such as expiring ingredients or time-sensitive surplus handoffs) command attention through grounded, earthy earth-pigment tones (terracotta, amber, deep olive) rather than jarring digital neons.
+
+### Aesthetic Influences
+- **Soft Scandinavian Minimalism:** Generous padding, breathable white-to-cream layering, and functional simplicity.
+- **Tactile Warmth:** Curated drop shadows tinted with deep umber and moss tones instead of cold, neutral grays. Crisp, large-radius geometry softens operational stress.
+
+## Colors
+
+The palette references botanical gardens, dried grains, and raw earthenware. It entirely replaces synthetic cold primaries with rich, deep chlorophyll and sun-warmed clay hues.
+
+### Role Tokens & Palette Values
+- **Primary Olive (`#455038`):** The primary anchor for primary CTAs, active operational states, and dominant key elements.
+- **Primary Variants:** Hover state `#4E5B49`, Pressed / Selected state `#404434`.
+- **Secondary Sage (`#69775E`):** Secondary controls, container backgrounds, subheaders, and tag borders. Softened shades include `#7A8672` and `#929172`.
+- **Tertiary Accent Sand & Cream (`#FEE9CE`):** A soft, warm peach-cream reserved for highlight badges, active selected indicator chips, and promotional food rescue cards. Paired with supporting tones `#C1AC8F` and `#B4A796`.
+- **Canvas & Surface Backgrounds:**
+  - Base Application Surface: `#FBF9F5` (Warm organic linen cream).
+  - Surface Tonal / Low: `#F4EFE6` (Recessed trays, segmented tab strips, search bars).
+  - Raised Card Surface: `#FFFFFF` (Pure white for elevated inventory records, recipe cards, and modal windows).
+- **Typography & Content:**
+  - Text Primary: `#23281E` (Deep forest peat charcoal; high legibility).
+  - Text Secondary: `#586150` (Muted lichen; supporting details and metadata).
+  - Text Disabled / Muted: `#7F8A77` (Non-active placeholder states).
+- **Domain Status Indicators:**
+  - **Safe / Fresh:** `#455038` with container tint `#EEF2EC`.
+  - **Expiring Soon / Warning:** `#D97706` (Warm amber clay) with container tint `#FEF3C7`.
+  - **Urgent Rescue / Critical:** `#C25E3E` (Terracotta clay) with container tint `#FAECE7`.
+  - Under no circumstances are electric blues, synthetic purples, or neon greens permitted.
+
+## Typography
+
+The typography system unites two balanced typefaces: **Outfit** for expressive, warm, and architectural headlines, and **Inter** for dense, clean data displays and inventory listings.
+
+### Scale Application
+- **Display & Headlines (Outfit):** Generously proportioned with slight negative tracking to preserve structural density. Used across aggregate waste savings metrics, recipe titles, meal planner day headers, and impactful hero modules.
+- **Body & Titles (Inter):** Clean, neutral, and engineered for dense legibility on mobile viewports. Handles ingredient quantities, preparation instructions, vendor addresses, and shelf-life timestamps.
+- **Labels & Badges (Inter):** Set at medium-to-semibold weights with slight positive letter-spacing (`0.01em` to `0.03em`) for uppercase status tags (e.g., 'URGENT RESCUE', '2 DAYS LEFT') to ensure high-visibility at compact sizes.
+
+## Layout & Spacing
+
+A strictly proportional 8pt-based spatial model drives grid layouts, container nesting, and touch padding across handheld devices and back-of-house desktop tablets.
+
+### Responsive Breakpoints & Grids
+- **Mobile Handheld (360px – 767px):**
+  - Columns: 4.
+  - Outer Margin: `1rem` (`16px`).
+  - Gutter: `1rem` (`16px`).
+  - Single-column flow with continuous vertical feeds for pantry checklists and rescue postings.
+- **Tablet / Kitchen Display (768px – 1023px):**
+  - Columns: 8.
+  - Outer Margin: `1.5rem` (`24px`).
+  - Gutter: `1.5rem` (`24px`).
+  - Two-column dashboard split: visual meal planning boards on the primary panel, live expiry logs docked along the secondary rail.
+- **Desktop & Inventory Management (1024px+):**
+  - Columns: 12.
+  - Outer Margin: `2.5rem` (`40px`), constrained to a max-width of `1440px`.
+  - Gutter: `2rem` (`32px`).
+
+## Elevation & Depth
+
+Visual depth is achieved through warm tonal contrast and low-density, warm-tinted ambient shadows. Avoid high-contrast black shadows or sharp industrial bevels.
+
+### Elevation Levels
+- **Ground (Canvas):** `#FBF9F5`. No elevation. Baseline layout.
+- **Level 1 (Recessed Surfaces & Trays):** `#F4EFE6`. No shadow; depth communicated strictly by value shift. Used for list containers, filter backdrops, and bottom navigation pill containers.
+- **Level 2 (Cards & Tiles):** Surface `#FFFFFF`. Shadow: `0 4px 16px -2px rgba(69, 80, 56, 0.06), 0 2px 6px -1px rgba(69, 80, 56, 0.04)`. Imparts soft, lifted tactile separation using the Primary Olive hue rather than neutral gray.
+- **Level 3 (Floating Bars & Modals):** Surface `#FFFFFF`. Shadow: `0 12px 32px -4px rgba(35, 40, 30, 0.10), 0 4px 12px -2px rgba(35, 40, 30, 0.04)`. Applied to action sheets, floating batch action bars, and bottom navigation docks.
+- **Borders & Seams:** 1px hairline rules using `#69775E` at 12% opacity (`rgba(105, 119, 94, 0.12)`). Eliminates harsh boundaries while defining card perimeters.
+
+## Shapes
+
+The interface embraces organic curvature to soften transactional inventory tasks and communicate approachability.
+
+### Radius Assignments
+- **Pills (`9999px` / `rounded-full`):** Reserved for primary interactive controls, category chips, status badges, and the floating bottom navigation bar.
+- **Cards & Modules (`rounded-2xl` to `rounded-3xl` / `24px` to `32px`):** Used on all content containers, recipe summaries, surplus rescue listings, and inventory summary modules.
+- **Input Fields & Secondary Trays (`rounded-xl` / `16px`):** Used for search inputs, quantity steppers, and modal dialogue corners to preserve text baseline alignment.
+
+## Components
+
+### Buttons
+- **Primary Action:** Pill-shaped (`rounded-full`), background `#455038`, text `#FFFFFF`, bold `label-lg`. Pressed state dips to `#404434`. Height: `48px` standard touch target, padding: `0 24px`.
+- **Secondary Accent:** Pill-shaped, background `#FEE9CE`, text `#455038`, border `1px solid #C1AC8F`. Pressed state adjusts to `#F4EFE6`.
+- **Ghost / Tertiary:** Borderless, text `#586150`, active hover reveals `#F4EFE6` surface.
+
+### Chips & Filter Pills
+- **Neutral Inactive:** Background `#FFFFFF`, border `1px solid rgba(105, 119, 94, 0.20)`, text `#586150`.
+- **Selected Filter:** Background `#455038`, border `1px solid #455038`, text `#FFFFFF`.
+- **Accent Chip:** Background `#FEE9CE`, border `1px solid #C1AC8F`, text `#23281E`.
+
+### Expiry & Urgency Badges
+- **Safe / Adequate Time:** Background `rgba(69, 80, 56, 0.10)`, text `#455038`, dot indicator in `#455038`.
+- **Warning (< 48 hrs):** Background `rgba(217, 119, 6, 0.12)`, text `#D97706`, label "Expires in 2 days".
+- **Urgent Rescue:** Background `rgba(194, 94, 62, 0.14)`, text `#C25E3E`, bold uppercase `label-sm`.
+
+### Cards & Inventory Modules
+- Pure white background (`#FFFFFF`), `rounded-3xl` (`24px`), border `1px solid rgba(105, 119, 94, 0.08)`, Level 2 ambient shadow.
+- Inner padding: `space-md` (`16px`) on mobile, `space-lg` (`24px`) on desktop.
+- Header row nests item image thumbnail (rounded `12px`), title (`title-md`), and status badge aligned flush right.
+- Footer contains dynamic price breakdown (`Estimated Price` strike-through vs. discounted rescue rate) and immediate claim/log action buttons.
+
+### Form Inputs & Steppers
+- Background `#F4EFE6`, border `1px solid rgba(105, 119, 94, 0.15)`, radius `14px`, height `48px`.
+- Focused state transitions to white background with a crisp `2px solid #455038` outline.
+- Plus/minus steppers utilize circular touch zones (`36px` diameter) with high-contrast peat text `#23281E`.
+
+### Bottom Navigation Dock
+- Floating pill-style bar placed `16px` above the bottom screen edge, centered, max-width `420px`.
+- Background `#FFFFFF` with Level 3 elevation shadow and subtle top border.
+- Layout: 5 equal tab destinations (Home, My Kitchen, Meal Planner, Food Rescue, Impact).
+- Inactive state: `#7F8A77` icon and `label-sm` caption.
+- Active state: `#455038` icon and caption, housed inside an animated soft pill pill-indicator tinted with `#FEE9CE`.

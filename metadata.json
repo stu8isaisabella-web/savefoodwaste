@@ -1,0 +1,6 @@
+{
+  "name": "WiseBite • Sunrise Café Food Rescue",
+  "description": "Commercial kitchen inventory tracking, zero-waste prep, and verified community food rescue handoff network for Sunrise Café.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
